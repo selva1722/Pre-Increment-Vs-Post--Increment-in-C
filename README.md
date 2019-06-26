@@ -16,10 +16,10 @@ Let us consider the follwing
 
 sum=3; tot=3
 
-tot=tot+ sum++;\*tot=?, sum=? *\
-tot=tot + ++sum;\*tot=?, sum=? *\
-tot= tot + sum--;\*tot=?, sum=? *\
-tot=tot + --sum;\*tot=?, sum=? *\
+tot=tot+ sum++;    \*tot=?, sum=? *\
+tot=tot + ++sum;   \*tot=?, sum=? *\
+tot= tot + sum--;  \*tot=?, sum=? *\
+tot=tot + --sum;   \*tot=?, sum=? *\
 
 Inn this case the final value is 3,3 
 
